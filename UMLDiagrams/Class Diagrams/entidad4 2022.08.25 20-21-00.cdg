@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="entidad4">
+  <ClassDiagramComponents>
+    <Class name="Nodo" package="entidad4" visibility="public" xPosition="110.0" yPosition="222.0">
+      <Fields>
+        <Field name="value" type="String" visibility="private"/>
+        <Field name="next" type="Nodo" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Persona" package="entidad4" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="amigos" type="List&lt;Persona&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="next" source="entidad4.Nodo" target="entidad4.Nodo" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="amigos" source="entidad4.Persona" target="entidad4.Persona" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Persona&gt;"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

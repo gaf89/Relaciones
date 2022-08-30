@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="entidad2">
+  <ClassDiagramComponents>
+    <Class name="Cliente" package="entidad2" visibility="public" xPosition="110.0" yPosition="250.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Empresa" package="entidad2" visibility="public" xPosition="110.0" yPosition="46.0">
+      <Fields>
+        <Field name="clientes" type="List&lt;Cliente&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="clientes" source="entidad2.Empresa" target="entidad2.Cliente" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Cliente&gt;"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
