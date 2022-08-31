@@ -32,7 +32,7 @@
         <Method name="toString" returnType="String" visibility="public"/>
       </Methods>
     </Class>
-    <Class name="Dni" package="entidad" visibility="public" xPosition="320.0" yPosition="20.0">
+    <Class name="Dni" package="entidad" visibility="public" xPosition="474.0" yPosition="56.0">
       <Fields>
         <Field name="serie" type="String" visibility="private"/>
         <Field name="numero" type="Integer" visibility="private"/>
