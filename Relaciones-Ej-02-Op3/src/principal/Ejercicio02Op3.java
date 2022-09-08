@@ -32,8 +32,7 @@ public class Ejercicio02Op3 {
         j1.mostrarJugadores();
         System.out.println("");
         j1.ronda();
-        
-       
+              
     }
     
 }

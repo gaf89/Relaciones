@@ -24,13 +24,16 @@ Pensar la lógica necesaria para realizar esto, usando los atributos de la clase
 */
 public class Juego {
     
-    Scanner leer = new Scanner(System.in);
-    Jugador j1 = new Jugador();
+    Scanner leer;
+    Jugador j1;
     
-    private ArrayList<Jugador> jugadores = new ArrayList();
+    private ArrayList<Jugador> jugadores;
     private Revolver revolver;
 
     public Juego() {
+        this.leer = new Scanner(System.in);
+        this.j1 = new Jugador();
+        this.jugadores = new ArrayList();
     }
 
     public Juego(ArrayList<Jugador> jugadores, Revolver revolver) {

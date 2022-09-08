@@ -87,6 +87,9 @@ public class BarajaServicio {
                     ctrol = 0;
                 }
             }
+            if (ctrol < 10) {
+                System.out.println(parrafo);
+            }
         }
     }
 
@@ -106,6 +109,9 @@ public class BarajaServicio {
                     parrafo = "";
                     ctrol = 0;
                 }
+            }
+            if (ctrol < 10) {
+                System.out.println(parrafo);
             }
         }
     }

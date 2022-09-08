@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  *
- * @author norae
+ * @author Gaston
  */
 public class ejercicioJugador {
 

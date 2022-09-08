@@ -41,9 +41,7 @@ public class RuletaServicio {
 //    • mojar(): devuelve true si la posición del agua coincide con la posición actual
     
     public boolean mojar() {
-        boolean mojar;
-        mojar = r1.getPosicionActual() == r1.getPosicionAgua();
-        return mojar;
+        return r1.getPosicionActual() == r1.getPosicionAgua();
     }
     
 //    • siguienteChorro(): cambia a la siguiente posición del tambor

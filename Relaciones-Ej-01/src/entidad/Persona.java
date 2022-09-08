@@ -17,15 +17,16 @@ public class Persona {
     private String apellido;
     private Integer edad;
     private Integer documento;
-    private ArrayList<Perro> perros = new ArrayList();
+    private Perro perro;
 
     public Persona() {
     }
 
-    public Persona(String nombre, Integer edad, Integer documento) {
+    public Persona(String nombre, String apellido, Integer edad, Integer documento) {
         this.nombre = nombre;
+        this.apellido = apellido;
         this.edad = edad;
-        this.documento = documento;
+        this.documento = documento;        
     }
 
     public String getNombre() {
@@ -44,10 +45,10 @@ public class Persona {
         return documento;
     }
 
-    public ArrayList<Perro> getPerros() {
-        return perros;
+    public Perro getPerro() {
+        return perro;
     }
-
+  
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -64,14 +65,15 @@ public class Persona {
         this.documento = documento;
     }
 
-    public void setPerros(ArrayList<Perro> perros) {
-        this.perros = perros;
+    public void setPerro(Perro perro) {
+        this.perro = perro;
     }
 
     @Override
     public String toString() {
-        return "Persona{" + "nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", documento=" + documento + "\n, perros=" + perros + '}';
+        return "nombre: " + nombre + "  apellido: " + apellido + "  edad: " + edad + "  documento: " + documento + "  Perro: " + perro;
     }
-    
+
+
     
 }

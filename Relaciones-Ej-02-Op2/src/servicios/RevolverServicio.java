@@ -7,20 +7,13 @@ package servicios;
 
 
 import entidades.Revolver;
-import java.util.Scanner;
 
 /**
  *
  * @author Gaston
  */
 public class RevolverServicio {
-    
-    Scanner leer;
-            
-    public RevolverServicio() {
-        this.leer =  new Scanner(System.in);
-    }
-    
+   
     //    • llenarRevolver(): le pone los valores de posición actual y de posición del agua. Los valores
 //deben ser aleatorios.
     

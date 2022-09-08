@@ -23,10 +23,11 @@ Pensar la lógica necesaria para realizar esto, usando los atributos de la clase
 */
 public class Juego {
     
-    private ArrayList<Jugador> jugadores = new ArrayList();
+    private ArrayList<Jugador> jugadores;
     private Revolver revolver;
 
     public Juego() {
+        this.jugadores = new ArrayList();
     }
 
     public Juego(ArrayList<Jugador> jugadores, Revolver revolver) {
